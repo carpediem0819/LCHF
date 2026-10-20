@@ -4,7 +4,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 // GitHub Pages repository name is configured here.
 const repo = 'lchf-diet-pwa'
 export default defineConfig({
-  base: process.env.GITHUB_PAGES === 'true' ? `/${repo}/` : '/',
+  base: '/LCHF/'
   plugins: [VitePWA({
     registerType: 'autoUpdate',
     includeAssets: ['icon-192.png', 'icon-512.png'],
